@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Mogly Group",
   description: "Mogly Group of companies",
+  base: '/vite-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
